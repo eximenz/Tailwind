@@ -43,6 +43,9 @@ nav a, .sidebar a, header a, ul a {
  position: sticky;
  top: 60px;
 }
+.main-nav {
+ position: sticky;
+}
 .media-nav {
   display: none;
 }
