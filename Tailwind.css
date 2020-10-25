@@ -41,7 +41,8 @@ nav a, .sidebar a, header a, ul a {
  top: 60px;
 }
 .main-nav {
- position: sticky;
+position: sticky;
+top: 0;
 }
 .media-nav {
   display: none;
@@ -50,7 +51,6 @@ nav a, .sidebar a, header a, ul a {
   background-color: #e1e6eb;
 }
 @media (max-width: 768px) {
-  figure {width: 40%; }
   html {font-size: 14px; }
   .history {width: 16rem;}
   .sidebar li {width: 235px;}
@@ -60,6 +60,7 @@ nav a, .sidebar a, header a, ul a {
   .media-nav { display: inline-block; }
   .content {border-left: none; }
   html {font-size: 13px; }
+  figure {width: 100%; }
 }
 @media (max-width: 425px) {
   body { width: 400px; }
